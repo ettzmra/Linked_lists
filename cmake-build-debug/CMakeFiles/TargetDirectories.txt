@@ -1,0 +1,3 @@
+/home/mel/CLionProjects/Linked lists/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mel/CLionProjects/Linked lists/cmake-build-debug/CMakeFiles/Linked_lists.dir
+/home/mel/CLionProjects/Linked lists/cmake-build-debug/CMakeFiles/edit_cache.dir
