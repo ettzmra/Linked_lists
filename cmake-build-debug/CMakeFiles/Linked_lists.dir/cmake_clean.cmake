@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Linked_lists.dir/main.cpp.o"
-  "Linked_lists.pdb"
+  "CMakeFiles/Linked_lists.dir/node_class.cpp.o"
   "Linked_lists"
+  "Linked_lists.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

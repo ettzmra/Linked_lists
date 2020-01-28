@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/mel/CLionProjects/Linked lists/main.cpp
+/home/mel/CLionProjects/Linked lists/node_class.cpp
+node_class.h
+/home/mel/CLionProjects/Linked lists/node_class.h
 iostream
 -
-string
--
+
+/home/mel/CLionProjects/Linked lists/node_class.h
 
