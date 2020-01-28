@@ -13,12 +13,12 @@ struct node {
 };
 
 template <typename T>
-
 class doubleLinkedList {
 public:
-    node<T> *head;
-    node<T> *tail;
+    node<T> *head = nullptr;
+    node<T> *tail = nullptr;
     void addItem (T val);
+    void print_list();
 
 };
 //template <typename T>

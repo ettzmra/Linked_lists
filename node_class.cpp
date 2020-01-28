@@ -8,10 +8,6 @@ using namespace std;
 //using doubleLinkedList<T>;
 
 template <typename T>
-//class doubleLinkedList {
-//public:
-//    node <T> *head = nullptr;
-//    node <T> *tail = nullptr;
 void doubleLinkedList<T>::addItem(T val) {
     if (head == nullptr) {
         head = new node <T>;
@@ -25,6 +21,17 @@ void doubleLinkedList<T>::addItem(T val) {
         tail->data = val;
         tail->next = nullptr;
     }
+}
+
+template <typename T>
+void doubleLinkedList<T>::print_list() {
+    node <T> *current = head;
+    cout<<"[ ";
+    while (current != nullptr) {
+        cout << current->data << " ";
+        current = current->next;
+    }
+    cout<<"]" << endl;
 }
 //    void print_list() {
 //        node <T> *current = head;

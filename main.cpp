@@ -5,7 +5,6 @@
 using std::cout;
 using std::endl;
 
-//template <typename T>
 //struct node {
 //    T data; // at class scope, variable templates need to be declared static.
 //    node *next = nullptr;
@@ -157,42 +156,42 @@ int main() {
         firstlist.addItem(i);
     }
     firstlist.print_list();
-    firstlist.move_front(5);
-    firstlist.print_list();
-    firstlist.move_front(5);
-    firstlist.print_list();
-    firstlist.move_front(9);
-    firstlist.print_list();
-    firstlist.move_front(11);
-    firstlist.print_list();
+//    firstlist.move_front(5);
+//    firstlist.print_list();
+//    firstlist.move_front(5);
+//    firstlist.print_list();
+//    firstlist.move_front(9);
+//    firstlist.print_list();
+//    firstlist.move_front(11);
+//    firstlist.print_list();
 
-    cout << "--------" << endl;
-
-    firstlist.move_back(8);
-    firstlist.print_list();
-    firstlist.move_back(7);
-    firstlist.print_list();
-    firstlist.move_back(7);
-    firstlist.print_list();
-    firstlist.move_back(11);
-    firstlist.print_list();
-
-    cout << "--------" << endl;
-
-    firstlist.remove_item(5);
-    firstlist.print_list();
-    firstlist.remove_item(5);
-    firstlist.print_list();
-    firstlist.remove_item(0);
-    firstlist.print_list();
-    firstlist.remove_item(3);
-    firstlist.print_list();
-    firstlist.remove_item(15);
-    firstlist.print_list();
-
-    cout << "--------" << endl;
-
-    firstlist.swap_items(0,5);
+//    cout << "--------" << endl;
+//
+//    firstlist.move_back(8);
+//    firstlist.print_list();
+//    firstlist.move_back(7);
+//    firstlist.print_list();
+//    firstlist.move_back(7);
+//    firstlist.print_list();
+//    firstlist.move_back(11);
+//    firstlist.print_list();
+//
+//    cout << "--------" << endl;
+//
+//    firstlist.remove_item(5);
+//    firstlist.print_list();
+//    firstlist.remove_item(5);
+//    firstlist.print_list();
+//    firstlist.remove_item(0);
+//    firstlist.print_list();
+//    firstlist.remove_item(3);
+//    firstlist.print_list();
+//    firstlist.remove_item(15);
+//    firstlist.print_list();
+//
+//    cout << "--------" << endl;
+//
+//    firstlist.swap_items(0,5);
     firstlist.print_list();
     //string food = "pizza"; string* meal = &food; cout << meal << "\n" << &meal << "\n" << food << "\n" << &food << "\n";
     //meal = "hamburger"; cout << food;
